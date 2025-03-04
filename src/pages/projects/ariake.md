@@ -4,7 +4,7 @@ title: "Ariake.nvim :: Neovim Theme"
 description: Ariake is a beautiful dark theme for Neovim.
 tags: ["neovim", "theme", "open-source"]
 githubUrl: https://github.com/jim-at-jibba/ariake.nvim
-timestamp: 2025-02-24T02:39:03+00:00
+timestamp: 2024-02-24T02:39:03+00:00
 featured: false
 filename: ariake
 ---

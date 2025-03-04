@@ -35,7 +35,7 @@ export const GLOBAL = {
     "All of my projects, including both frontend and full-stack applications.",
 
   // Profile image
-  profileImage: "michael-dam-unsplash.webp",
+  profileImage: "james-best.jpg",
 
   // Menu items
   menu: {
