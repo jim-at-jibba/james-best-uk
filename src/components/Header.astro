@@ -5,6 +5,15 @@ import ThemeToggle from "./ThemeToggle.astro";
 
 // Get current path for active state
 const currentPath = Astro.url.pathname;
+
+// Helper function to check if a path is active
+const isActivePath = (menuUrl: string) => {
+  // Special case for home page
+  if (menuUrl === "/") {
+    return currentPath === "/";
+  }
+  return currentPath.startsWith(menuUrl);
+};
 ---
 
 <header class="zag-bg zag-border-b zag-transition sticky top-0 w-full z-10">
@@ -31,10 +40,7 @@ const currentPath = Astro.url.pathname;
     >
       {
         Object.entries(GLOBAL.menu).map(([label, url]) => (
-          <Anchor
-            url={url}
-            class={currentPath === url ? "active-menu-item" : ""}
-          >
+          <Anchor url={url} class={isActivePath(url) ? "active-menu-item" : ""}>
             {label}
           </Anchor>
         ))
