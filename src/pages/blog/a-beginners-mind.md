@@ -6,7 +6,7 @@ tags: ["mindfulness", "engineering", "productivity"]
 time: 5
 featured: true
 timestamp: 2025-03-05T10:30:00+00:00
-filename: beginners-mind-engineering
+filename: a-beginners-mind
 ---
 
 In this article, I'll discuss how the Zen Buddhist concept of "shoshin" or "beginner's mind" can transform your approach to software engineering. I discovered this principle during a recent meditation session, and I've been fascinated by its potential applications in technical work.
