@@ -59,6 +59,13 @@
     }
   }
 
+  .active-menu-item {
+    color: #fd2d78;
+    :where(.dark, .dark *) & {
+      color: #45f9e5;
+    }
+  }
+
   .zag-transition {
     @media (prefers-reduced-motion: no-preference) {
       transition: background-color var(--zag-transition-duration)
