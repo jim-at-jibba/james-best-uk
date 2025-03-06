@@ -1,0 +1,255 @@
+---
+import Section from "../components/common/Section.astro";
+import Layout from "../layouts/Layout.astro";
+import { GLOBAL } from "../lib/variables";
+---
+
+<Layout>
+  <Fragment slot="head">
+    <title>About Me • {GLOBAL.username}</title>
+    <meta
+      name="description"
+      content="Learn more about James Best - Software Engineer, Lean Engineer at Breedr, and tech enthusiast from Bristol, UK."
+    />
+    <meta property="og:title" content={`About Me • ${GLOBAL.username}`} />
+    <meta
+      property="og:description"
+      content="Learn more about James Best - Software Engineer, Lean Engineer at Breedr, and tech enthusiast from Bristol, UK."
+    />
+    <meta
+      property="og:image"
+      content={`${GLOBAL.rootUrl}/${GLOBAL.profileImage}`}
+    />
+    <meta property="og:url" content={`${GLOBAL.rootUrl}/about`} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={`About Me • ${GLOBAL.username}`} />
+    <meta
+      name="twitter:description"
+      content="Learn more about James Best - Software Engineer, Lean Engineer at Breedr, and tech enthusiast from Bristol, UK."
+    />
+    <meta
+      name="twitter:image"
+      content={`${GLOBAL.rootUrl}/${GLOBAL.profileImage}`}
+    />
+    <meta http-equiv="content-language" content="en" />
+    <meta name="language" content="English" />
+    <link rel="canonical" href={`${GLOBAL.rootUrl}/about`} />
+  </Fragment>
+
+  <Section class="py-4 my-8">
+    <div class="flex items-center gap-4 pt-8 pb-16">
+      <h1 class="font-display text-3xl sm:text-4xl leading-loose">About Me</h1>
+    </div>
+
+    <!-- Introduction -->
+    <div class="prose dark:prose-invert max-w-none mb-16">
+      <h2 class="text-2xl font-display mb-12">Hi, I'm James Best</h2>
+      <p class="mb-6">
+        I'm an experienced TypeScript and JavaScript developer based in Bristol,
+        UK, specializing in building high-performance, scalable applications
+        across backend, frontend, and mobile environments. With expertise in
+        React Native, I create robust offline-ready apps that deliver
+        exceptional user experiences.
+      </p>
+      <p>
+        Recently, I've been focused on creating GenAI solutions using Python and
+        TypeScript, leveraging tools like Langchain, AutoGen, Vercel AI SDK, and
+        Frontier models to build intelligent applications that solve real-world
+        problems.
+      </p>
+    </div>
+
+    <!-- Professional Journey -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-display mb-12">Work</h2>
+
+      <div class="space-y-16">
+        <div>
+          <h3 class="text-xl font-semibold mb-4">
+            Lead Front-end Engineer at Breedr
+          </h3>
+          <p class="text-gray-600 dark:text-gray-400 italic mb-6">
+            April 2023 - Present | Bristol (Remote)
+          </p>
+          <p>
+            I currently manage a small team of engineers, overseeing the
+            development and improvement of both web and mobile codebases. My
+            focus has been on enhancing code quality and creating a better
+            developer experience for the team.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-semibold mb-4">
+            Full-stack Engineer at Breedr
+          </h3>
+          <p class="text-gray-600 dark:text-gray-400 italic mb-6">
+            June 2021 - April 2023 | Bristol (Remote)
+          </p>
+          <ul class="list-disc list-inside space-y-4">
+            <li>
+              Architected a Realm microservice that reduced initial load time of
+              mobile app data from 90 minutes to just 15 seconds
+            </li>
+            <li>
+              Improved Bluetooth hardware integration, making it more stable and
+              easier to maintain, reducing customer service issues by 75%
+            </li>
+            <li>Rewritten the signup form, increasing conversion by 2.5x</li>
+            <li>
+              Helped implement Realm into the app, replacing a large part of the
+              Redux store to improve overall performance and stability
+            </li>
+            <li>
+              Integrated a mapping solution that allows farmers to map their
+              farms from within the app
+            </li>
+            <li>
+              Mentored junior members of the team and participated in hiring and
+              onboarding new staff
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-semibold mb-4">
+            Full-stack Engineer at Candide
+          </h3>
+          <p class="text-gray-600 dark:text-gray-400 italic mb-6">
+            November 2019 - May 2021 | Bristol
+          </p>
+          <p class="mb-6">
+            At Candide, I was part of a small team creating tools for
+            Marketplace vendors and:
+          </p>
+          <ul class="list-disc list-inside space-y-4">
+            <li>
+              Helped revamp the Candide Marketplace from C2C to B2C, increasing
+              weekly sales by 100x to over £2M per annum
+            </li>
+            <li>Integrated a machine learning feed into the mobile app</li>
+            <li>Added services to our large microservice architecture</li>
+            <li>Mentored junior engineers</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-semibold mb-4">
+            Full-stack Developer at Gravitywell
+          </h3>
+          <p class="text-gray-600 dark:text-gray-400 italic mb-6">
+            July 2015 - November 2019 | Bristol
+          </p>
+          <p class="mb-6">My achievements at Gravitywell included:</p>
+          <ul class="list-disc list-inside space-y-4">
+            <li>
+              Introducing the team to React, React Native, GraphQL, TypeScript,
+              and AWS Amplify
+            </li>
+            <li>
+              Leading development of a multi-award winning project for English
+              Heritage
+            </li>
+            <li>
+              Leading mobile development and implementing globally distributed
+              microservices architecture for a leading car hire company
+            </li>
+            <li>
+              Building and maintaining numerous Node.js backends in both
+              traditional and serverless patterns
+            </li>
+            <li>
+              Creating a custom CMS and data delivery platform for WeTheCurious
+            </li>
+            <li>Establishing "Lunch & Learn" knowledge sharing sessions</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-display mb-12">Technical Skills</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div>
+          <ul class="list-disc list-inside space-y-6">
+            <li>
+              <strong>Languages:</strong> JavaScript, TypeScript, Python, Golang
+            </li>
+            <li><strong>Frontend:</strong> React, Redux, React Apollo</li>
+            <li><strong>Mobile:</strong> React Native, Realm</li>
+            <li>
+              <strong>Backend:</strong> Node.js, FastAPI, REST and GraphQL APIs
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="list-disc list-inside space-y-6">
+            <li><strong>Architecture:</strong> Microservices, Serverless</li>
+            <li><strong>Databases:</strong> PostgreSQL, NoSQL</li>
+            <li>
+              <strong>AI & ML:</strong> GenAI, RAG, LLMs, Langchain, LangGraph
+            </li>
+            <li><strong>DevOps:</strong> CI/CD, Testing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Beyond Code -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-display mb-12">Beyond Code</h2>
+      <div class="prose dark:prose-invert max-w-none">
+        <p class="mb-8">When I'm not coding, I'm:</p>
+        <ul class="space-y-6">
+          <li>Creating open-source React Native and Neovim packages</li>
+          <li>
+            Co-hosting the monthly SaltedBytes podcast (<a
+              href="https://saltedbytes.rocks"
+              target="_blank"
+              rel="noopener noreferrer">saltedbytes.rocks</a
+            >)
+          </li>
+          <li>
+            Tinkering with electronics and IoT projects (partly for fun, partly
+            to inspire my children)
+          </li>
+          <li>
+            Participating in CTF (Capture The Flag) games to sharpen my computer
+            and information security skills
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-display mb-12">Let's Connect</h2>
+      <div class="prose dark:prose-invert max-w-none">
+        <ul class="space-y-6">
+          <li>
+            <strong>Email:</strong>
+            <a href="mailto:jamesg2.best@proton.me">jamesg2.best@proton.me</a>
+          </li>
+          <li>
+            <strong>Website:</strong>
+            <a
+              href="https://jamesbest.uk"
+              target="_blank"
+              rel="noopener noreferrer">jamesbest.uk</a
+            >
+          </li>
+          <li>
+            <strong>GitHub:</strong>
+            <a
+              href="https://github.com/jim-at-jibba"
+              target="_blank"
+              rel="noopener noreferrer">github.com/jim-at-jibba</a
+            >
+          </li>
+          <li><strong>Location:</strong> Bristol, UK</li>
+        </ul>
+      </div>
+    </div>
+  </Section>
+</Layout>
