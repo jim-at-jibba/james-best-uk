@@ -1,6 +1,7 @@
 ---
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
+import PosthogLayout from "./PosthogLayout.astro";
 import "../styles/global.css";
 ---
 
@@ -24,5 +25,6 @@ import "../styles/global.css";
       <slot />
     </main>
     <Footer />
+    <PosthogLayout />
   </body>
 </html>
