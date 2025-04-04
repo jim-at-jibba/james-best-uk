@@ -43,4 +43,3 @@ Despite the remarkable progress, the battle against HIV/AIDS is far from over. O
 Looking ahead, Barré-Sinoussi's legacy serves as an inspiration for scientists worldwide to approach complex medical challenges with unwavering curiosity, collaboration, and a commitment to improving human health. Her work reminds us that scientific breakthroughs often emerge from the most unlikely places, and that perseverance in the face of adversity can yield transformative discoveries.
 
 This post is an adult version of content I have written for my other website [STEM Buddies](https://stem-buddies.co.uk), a site for STEM education for children up to 10 years old.
-
