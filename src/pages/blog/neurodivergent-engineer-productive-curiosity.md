@@ -16,7 +16,7 @@ timestamp: 2025-03-31T09:15:00+00:00
 filename: neurodivergent-engineer-productive-curiosity
 ---
 
-As an engineering manager working hands-on with mobile app development in the agtech space, I've come to appreciate the unique advantages that come with a neurodivergent mind. What many might consider distractions — those persistent intellectual "itches" demanding to be scratched — I've learnt to harness as powerful catalysts for innovation and learning.
+As a Lead Engineer working hands-on with mobile app development in the agtech space, I've come to appreciate the unique advantages that come with a neurodivergent mind. What many might consider distractions — those persistent intellectual "itches" demanding to be scratched — I've learnt to harness as powerful catalysts for innovation and learning.
 
 ## The Nature of Intellectual Itches
 
