@@ -4,7 +4,7 @@ title: "Understanding Modules in NestJS: The Building Blocks of Your Application
 description: "A deep dive into how modules work in NestJS and why they're crucial for maintainable applications"
 tags: ["nestjs", "typescript", "architecture", "backend"]
 time: 7
-featured: true
+featured: false
 timestamp: 2025-03-17T09:15:00+00:00
 filename: nest-1-understanding-modules
 ---

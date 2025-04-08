@@ -5,7 +5,7 @@ description: "Learn how to use pipes, validation, and DTOs effectively in your N
 category: "Backend Development"
 tags: ["nestJS", "typeScript", "validation", "backend"]
 time: 7
-featured: true
+featured: false
 timestamp: 2025-03-24T09:15:00+00:00
 filename: nest-2-pipe
 ---
