@@ -12,7 +12,7 @@ tags:
 time: 6
 featured: true
 timestamp: 2025-06-02T14:30:00+00:00
-filename: building-whilst-on-holiday-june-2025
+filename: wkend-01-06
 ---
 
 Welcome to the first instalment of my weekly rundowns—a new series where I'll be sharing what I've been working on, reading, and learning each week. As a lead engineer building mobile apps with a focus on AI tools, I find myself constantly exploring new technologies, refining existing systems, and balancing the demands of technical leadership with hands-on development.
