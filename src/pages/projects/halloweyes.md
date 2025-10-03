@@ -15,6 +15,7 @@ filename: halloweyes
 HallowEyes is a cross-platform mobile application that transforms your device into a mesmerizing display of animated eyes. Perfect for Halloween parties, spooky decorations, or creating eerie ambiance, this app features a collection of eye animations that range from cute and colorful to genuinely spooky.
 
 [View on GitHub](https://github.com/jim-at-jibba/halloweyes)
+[View Website](https://halloweyes.jamesbest.uk/)
 
 ## The Vision Behind HallowEyes
 
