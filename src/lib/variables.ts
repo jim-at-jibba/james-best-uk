@@ -43,5 +43,6 @@ export const GLOBAL = {
     projects: "/projects",
     blog: "/blog",
     about: "/about",
+    uses: "/uses",
   },
 };

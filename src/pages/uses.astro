@@ -1,0 +1,213 @@
+---
+import Section from "../components/common/Section.astro";
+import Layout from "../layouts/Layout.astro";
+import { GLOBAL } from "../lib/variables";
+---
+
+<Layout>
+  <Fragment slot="head">
+    <title>Uses • {GLOBAL.username}</title>
+    <meta
+      name="description"
+      content="All the gear I use - desk setup, software tools, and everyday carry items."
+    />
+    <meta property="og:title" content={`Uses • ${GLOBAL.username}`} />
+    <meta
+      property="og:description"
+      content="All the gear I use - desk setup, software tools, and everyday carry items."
+    />
+    <meta
+      property="og:image"
+      content={`${GLOBAL.rootUrl}/${GLOBAL.profileImage}`}
+    />
+    <meta property="og:url" content={`${GLOBAL.rootUrl}/uses`} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={`Uses • ${GLOBAL.username}`} />
+    <meta
+      name="twitter:description"
+      content="All the gear I use - desk setup, software tools, and everyday carry items."
+    />
+    <meta
+      name="twitter:image"
+      content={`${GLOBAL.rootUrl}/${GLOBAL.profileImage}`}
+    />
+    <meta http-equiv="content-language" content="en" />
+    <meta name="language" content="English" />
+    <link rel="canonical" href={`${GLOBAL.rootUrl}/uses`} />
+  </Fragment>
+
+  <Section class="py-4 my-8">
+    <div class="flex items-center gap-4 pt-8 pb-16">
+      <h1 class="font-display text-3xl sm:text-4xl leading-loose">Uses</h1>
+    </div>
+
+    <div class="prose dark:prose-invert max-w-none mb-16">
+      <h2 class="text-2xl font-bold mb-4">Desk</h2>
+      <p>Custom made extra deep desk, with foot rest and Ikea chair.</p>
+    </div>
+
+    <div class="mb-16">
+      <h2 class="text-2xl font-bold mb-4">On the desk</h2>
+      <div class="prose dark:prose-invert max-w-none">
+        <p>
+          I use a 2021 16in Macbook Pro M1 Max (always in calmshell position
+          in a{" "}
+          <a href="https://www.amazon.co.uk/dp/B07TVMD7R7/" target="_blank">
+            MOSISO laptop stand
+          </a>
+          ). Connected to that is a single 27in AOC monitor. There is nothing special about it.
+        </p>
+        <p>
+          I use a{" "}
+          <a
+            href="https://www.keyboardco.com/keyboard/usa-topre-realforce-87uw-Variable-mini-black-on-beige-keyboard.asp"
+            target="_blank"
+          >
+            Realforce 87u
+          </a>{" "}
+          keyboard and a Logitech MX mouse.
+        </p>
+        <p>
+          Lighting is provided by a vintage Anglepoise desk lamp and an LED
+          strip behind the desk.
+        </p>
+        <p>Other bits include:</p>
+        <ul>
+          <li>Logitech C920 webcam</li>
+          <li>HyperX Solocast mic</li>
+          <li>Cambridge Audio amp and speakers</li>
+          <li>Hakko soldering iron</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mb-16">
+      <h2 class="text-2xl font-bold mb-4">Software</h2>
+      <div class="prose dark:prose-invert max-w-none">
+        <p>
+          I do all my development in a terminal, leaning on Ghostty with NeoVim.
+        </p>
+        <p>
+          For agentic coding, I use{" "}
+          <a href="https://opencode.ai/" target="_blank"> OpenCode</a> which
+          helps me with complex multi-step development tasks.
+        </p>
+        <p>
+          My dotfiles can be found{" "}
+          <a href="https://github.com/jim-at-jibba/my-dots" target="_blank">
+            here.
+          </a>{" "}
+          I use the awesome{" "}
+          <a href="https://berkeleymono.com/" target="_blank"> Berkeley Mono</a>
+        </p>
+        <p>My essential cli tools include:</p>
+        <ul>
+          <li>
+            <a href="https://github.com/wting/autojump" target="_blank">
+              autojump
+            </a>{" "}
+            : A cd command that learns - easily navigate directories from the command
+            line
+          </li>
+          <li>
+            <a href="https://github.com/sharkdp/bat" target="_blank"> bat</a>{
+              " "
+            }
+            : A cat(1) clone with wings.
+          </li>
+          <li>
+            <a href="https://github.com/junegunn/fzf" target="_blank">
+              fzf
+            </a>{" "}
+            : A command-line fuzzy finder
+          </li>
+          <li>
+            <a href="https://github.com/BurntSushi/ripgrep" target="_blank">
+              ripgrep
+            </a>{" "}
+            : ripgrep recursively searches directories for a regex pattern
+          </li>
+          <li>
+            <a href="https://hisham.hm/htop/" target="_blank"> htop</a>{" "}
+            : an interactive process viewer for Unix systems
+          </li>
+          <li>
+            <a href="https://httpie.org/" target="_blank"> httpie</a>{" "}
+            : a command-line HTTP client
+          </li>
+          <li>
+            <a href="https://stedolan.github.io/jq/" target="_blank"> jq</a>{
+              " "
+            }
+            : jq is a lightweight and flexible command-line JSON processor
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mb-16">
+      <h2 class="text-2xl font-bold mb-4">Other Software</h2>
+      <div class="prose dark:prose-invert max-w-none">
+        <ul>
+          <li>
+            <a href="https://www.raycast.com/" target="_blank"> Raycast</a>
+          </li>
+          <li>
+            <a href="https://cleanshot.com/" target="_blank"> CleanShot X</a>
+          </li>
+          <li>
+            <a href="https://eggerapps.at/postico/" target="_blank">
+              Postico
+            </a>
+          </li>
+          <li>
+            <a href="https://protonvpn.com/" target="_blank"> Proton VPN</a>
+          </li>
+          <li>
+            <a href="https://portswigger.net/burp" target="_blank">
+              Burp Suite
+            </a>
+          </li>
+          <li>
+            <a href="https://www.balena.io/etcher/" target="_blank">
+              Balena Etcher
+            </a>
+          </li>
+          <li>
+            <a href="https://apps.ankiweb.net/" target="_blank"> Anki</a>
+          </li>
+          <li>
+            <a href="http://easyresapp.com/" target="_blank"> EasyRes</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mb-16">
+      <h2 class="text-2xl font-bold mb-4">EDC</h2>
+      <div class="prose dark:prose-invert max-w-none">
+        <p>I like to keep my EDC simple.</p>
+        <ul>
+          <li>
+            <p>Slip Wallet: Nothing special, small and simple</p>
+          </li>
+          <li>
+            <p>Leuchtturm1917 notebook: Small dotted</p>
+          </li>
+          <li>
+            <p>Kaweco Classic Sport Rollerball: Stunning pen</p>
+          </li>
+          <li>
+            <p>Keys</p>
+          </li>
+          <li>
+            <p>Olympus XA: Best small 35mm camera money can buy</p>
+          </li>
+          <li>
+            <p>Citizen Promaster Aqualand watch: A gift from my mum</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </Section>
+</Layout>
