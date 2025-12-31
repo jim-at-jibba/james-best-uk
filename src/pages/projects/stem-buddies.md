@@ -4,7 +4,7 @@ title: "STEM Buddies :: Making Science Fun for Young Explorers"
 description: An engaging educational platform where young scientists discover the exciting world of STEM through interactive content.
 tags: ["education", "stem", "kids", "science"]
 timestamp: 2025-03-05T10:15:00+00:00
-featured: true
+featured: false
 filename: stem-buddies
 ---
 

@@ -5,7 +5,7 @@ description: A desktop application for game developers to view, organize, and pr
 tags: ["electron", "gamedev", "tool", "typescript", "react"]
 githubUrl: https://github.com/jim-at-jibba/2d-asset-viewer
 timestamp: 2025-05-12T02:39:03+00:00
-featured: true
+featured: false
 filename: asset-viewer
 ---
 

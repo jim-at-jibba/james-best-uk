@@ -5,7 +5,7 @@ description: A Neovim plugin for working with Micropython projects.
 tags: ["lua", "neovim", "micropython", "tool"]
 githubUrl: https://github.com/jim-at-jibba/micropython.nvim
 timestamp: 2024-03-19T02:39:03+00:00
-featured: true
+featured: false
 filename: micropython
 ---
 
