@@ -25,13 +25,15 @@ export const processContentInDir = async <T extends object, K>(
 ) => {
   const files = await fs.readdir(dir + `/src/pages/${contentType}`);
   const markdownFiles = files
-    .filter((file: string) => file.endsWith(".md"))
-    .map((file) => file.split(".")[0]);
+    .filter((file: string) => file.endsWith(".md") || file.endsWith(".mdx"))
+    .map((file) => file.replace(/\.mdx?$/, ""));
   const readMdFileContent = async (file: string) => {
     if (contentType === "projects") {
       const content = import.meta
-        .glob(`/src/pages/projects/*.md`)
-        [`/src/pages/projects/${file}.md`]();
+        .glob(`/src/pages/projects/*.{md,mdx}`)
+        [`/src/pages/projects/${file}.md`]() || import.meta
+        .glob(`/src/pages/projects/*.{md,mdx}`)
+        [`/src/pages/projects/${file}.mdx`]();
       const data = (await content) as {
         frontmatter: T;
         file: string;
@@ -40,8 +42,10 @@ export const processContentInDir = async <T extends object, K>(
       return processFn(data);
     } else {
       const content = import.meta
-        .glob(`/src/pages/blog/*.md`)
-        [`/src/pages/blog/${file}.md`]();
+        .glob(`/src/pages/blog/*.{md,mdx}`)
+        [`/src/pages/blog/${file}.md`]() || import.meta
+        .glob(`/src/pages/blog/*.{md,mdx}`)
+        [`/src/pages/blog/${file}.mdx`]();
       const data = (await content) as {
         frontmatter: T;
         file: string;

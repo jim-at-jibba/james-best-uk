@@ -1,0 +1,26 @@
+---
+import { Image } from 'astro:assets';
+
+interface Props {
+  src: ImageMetadata;
+  alt: string;
+  caption?: string;
+  class?: string;
+}
+
+const { src, alt, caption, class: className } = Astro.props;
+---
+
+<figure class:list={["my-6", className]}>
+  <Image
+    src={src}
+    alt={alt}
+    class="w-full h-auto rounded-sm"
+    loading="lazy"
+  />
+  {caption && (
+    <figcaption class="mt-2 text-sm text-center text-[var(--color-zag-dark)] dark:text-[var(--color-zag-light)] opacity-80">
+      {caption}
+    </figcaption>
+  )}
+</figure>

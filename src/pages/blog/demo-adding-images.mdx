@@ -1,0 +1,30 @@
+---
+layout: ../../layouts/BlogLayout.astro
+title: "Demo: Adding Images to Blog Posts"
+description: "A demo post showcasing the new image support feature in my blog"
+tags: ["demo", "astro", "images"]
+time: 2
+featured: false
+timestamp: 2026-02-21T07:50:00+00:00
+filename: demo-adding-images
+---
+
+import BlogImage from '../../components/BlogImage.astro';
+import demoImage from '../../assets/blog-images/demo-coding.webp';
+
+I've just added the ability to include images in my blog posts! Here's a demo of how it works.
+
+<BlogImage src={demoImage} alt="Person working on a laptop" caption="Working on code - photo by Michael Dam" />
+
+## How It Works
+
+I can now use the `BlogImage` component in my MDX posts to include optimized images with optional captions. The images are stored in `src/assets/blog-images/` and processed by Astro's image optimization.
+
+## Key Features
+
+- **Optimized** - Astro automatically optimizes images for performance
+- **Responsive** - Images scale appropriately on different screen sizes
+- **Lazy loading** - Images load as they come into viewport
+- **Captions** - Optional captions below images
+
+This makes it much easier to include visuals in my posts!
