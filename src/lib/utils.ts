@@ -31,10 +31,10 @@ export const processContentInDir = async <T extends object, K>(
     if (contentType === "projects") {
       const content = import.meta
         .glob(`/src/pages/projects/*.{md,mdx}`)
-        [`/src/pages/projects/${file}.md`]() || import.meta
+        [`/src/pages/projects/${file}.md`] || import.meta
         .glob(`/src/pages/projects/*.{md,mdx}`)
-        [`/src/pages/projects/${file}.mdx`]();
-      const data = (await content) as {
+        [`/src/pages/projects/${file}.mdx`];
+      const data = (await content()) as {
         frontmatter: T;
         file: string;
         url: string;
@@ -43,10 +43,10 @@ export const processContentInDir = async <T extends object, K>(
     } else {
       const content = import.meta
         .glob(`/src/pages/blog/*.{md,mdx}`)
-        [`/src/pages/blog/${file}.md`]() || import.meta
+        [`/src/pages/blog/${file}.md`] || import.meta
         .glob(`/src/pages/blog/*.{md,mdx}`)
-        [`/src/pages/blog/${file}.mdx`]();
-      const data = (await content) as {
+        [`/src/pages/blog/${file}.mdx`];
+      const data = (await content()) as {
         frontmatter: T;
         file: string;
         url: string;
