@@ -3,6 +3,7 @@ layout: ../../layouts/ProjectLayout.astro
 title: "nvim-redraft :: AI-Powered Inline Code Editing"
 description: A Neovim plugin for seamless AI-powered inline code editing with support for multiple LLM providers.
 tags: ["neovim", "ai", "lua", "typescript", "plugin"]
+githubUrl: https://github.com/jim-at-jibba/nvim-redraft
 timestamp: 2025-10-06T00:00:00+00:00
 featured: true
 filename: nvim-redraft
@@ -98,4 +99,3 @@ The next phases of nvim-redraft development will include:
 - Multi-file refactoring capabilities
 - Template-based code generation
 - Enhanced debugging and logging features
-

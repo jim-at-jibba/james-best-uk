@@ -3,6 +3,7 @@ layout: ../../layouts/ProjectLayout.astro
 title: "Kyo Notes :: Note Taking App"
 description: A browser-based note-taking system designed specifically for ADHD minds to capture thoughts effortlessly.
 tags: ["chrome extension", "adhd", "tool"]
+githubUrl: https://github.com/jim-at-jibba/kyo-website
 timestamp: 2024-03-15T02:39:03+00:00
 featured: false
 filename: kyo-notes

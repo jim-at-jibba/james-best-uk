@@ -3,6 +3,7 @@ layout: ../../layouts/ProjectLayout.astro
 title: "nvim-stride :: AI-Powered Next-Edit Predictions"
 description: A Neovim plugin that predicts where you'll edit next based on recent changes, with support for intelligent refactoring and ghost text completions.
 tags: ["neovim", "ai", "lua", "refactoring", "plugin"]
+githubUrl: https://github.com/jim-at-jibba/nvim-stride
 timestamp: 2025-12-31T00:00:00+00:00
 featured: true
 filename: nvim-stride

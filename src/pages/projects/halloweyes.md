@@ -3,6 +3,7 @@ layout: ../../layouts/ProjectLayout.astro
 title: "HallowEyes :: Spooky Animated Eyes for Halloween Fun"
 description: A Halloween-themed mobile app featuring mesmerizing animated eyes that transform your device into a spooky display perfect for parties and decorations.
 tags: ["mobile", "halloween", "expo", "react-native", "animation", "ios", "android"]
+githubUrl: https://github.com/jim-at-jibba/halloweyes
 timestamp: 2025-09-28T15:30:00+00:00
 featured: false
 filename: halloweyes
@@ -96,5 +97,4 @@ The roadmap for HallowEyes includes exciting new features:
 
 - **Additional Eye Animations**: Expanding the library with more creative designs
 - **Holiday Themes**: Seasonal eye animations for other holidays
-
 

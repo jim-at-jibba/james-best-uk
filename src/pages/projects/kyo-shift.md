@@ -3,6 +3,7 @@ layout: ../../layouts/ProjectLayout.astro
 title: "Kyo Shift :: ADHD Focus Tool"
 description: A Chrome extension that helps ADHD minds focus by suggesting random workspace changes.
 tags: ["chrome extension", "adhd", "tool"]
+githubUrl: https://github.com/jim-at-jibba/kyo-website
 timestamp: 2024-03-20T02:39:03+00:00
 featured: false
 filename: kyo-shift

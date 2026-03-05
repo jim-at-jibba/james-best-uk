@@ -3,6 +3,7 @@ layout: ../../layouts/ProjectLayout.astro
 title: "ThoughtScribe :: AI Speech-to-Text App"
 description: Transform your speech into polished text with AI-powered transcription.
 tags: ["app", "ai", "react-native"]
+githubUrl: https://github.com/jim-at-jibba/thoughtscribe-clarify
 timestamp: 2025-02-20T02:39:03+00:00
 featured: true
 filename: thought-scribe

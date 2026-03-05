@@ -3,6 +3,7 @@ layout: ../../layouts/ProjectLayout.astro
 title: "drill :: Terminal-Based Spaced Repetition System"
 description: A file-based flashcard system using Markdown and the SM-2 algorithm. Study in the terminal with Git version control and keyboard-driven interfaces.
 tags: ["cli", "terminal", "learning", "markdown", "spaced-repetition"]
+githubUrl: https://github.com/jim-at-jibba/drill
 timestamp: 2025-12-31T00:00:00+00:00
 featured: true
 filename: drill
@@ -305,4 +306,3 @@ Maximize retention with these practices:
 - Use specific, focused questions per card
 - Include code examples for programming concepts
 - Review immediately when cards are due
-
