@@ -6,7 +6,7 @@ export const GLOBAL = {
   rootUrl: "https://jamesbest.uk",
   shortDescription: "A software engineer from Bristol, UK",
   longDescription:
-    "I'm a software engineer from Bristol, UK. I'm currently a Lean Engineer at Breedr.",
+    "I'm a software engineer from Bristol, UK. I'm currently a Senior Software Engineer at Sidekick.",
 
   // Social media links
   githubProfile: "https://github.com/jim-at-jibba",
